@@ -1,0 +1,46 @@
+#counter,
+#increase,
+#decrease {
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-size: 40px;
+}
+
+#counter {
+  font-size: 120px;
+  text-align: center;
+}
+
+#buttons {
+  margin: 0 auto;
+  width: max-content;
+}
+
+#increase,
+#decrease {
+  background-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(216, 216, 216) #d1d1d1 rgb(186, 186, 186);
+  display: inline-block;
+  padding: 15px 25px 10px 25px;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 4px;
+}
+
+#increase:hover,
+#decrease:hover {
+  background-color: #3e8e41;
+}
+
+#increase:active,
+#decrease:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
